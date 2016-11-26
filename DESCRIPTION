@@ -1,9 +1,13 @@
 Package: IOA
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.3.2)
-License: What license is it under?
-Encoding: UTF-8
-LazyData: true
+Type: Package
+Title: Input Output Analysis
+Version: 0.1.0
+Author: Shishir Shakya <shishir.shakya@mail.wvu.edu>
+Maintainer: Shishir Shakya <shishir.shakya@mail.wvu.edu>
+Description: IO Analysis
+License: >GPL-2
+LazyData: TRUE
+RoxygenNote: 5.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
